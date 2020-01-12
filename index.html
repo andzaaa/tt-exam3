@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exam3 - Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andris Snikers" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <!--    SLIDER-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+    <body>
+        <header>
+            <div class="container h-100">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="logo" href="#"><img src="img/logo.png" alt="" title=""></a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span>MENU</span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#app-featured">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Testimonials</a>
+                            </li>
+                        </ul>
+
+                        <ul class="list-group list-group-horizontal list-unstyled my-2 my-lg-0 social d-none d-lg-flex">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-google"></i></a></li>
+                        </ul>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </header>
+
+        <main>
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="caption">
+                        <h1 class="text-uppercase">Take Photos Like A Pro.</h1>
+                        <p class="text-lowercase">With only your iphone and capture app you can take stunning image like a professional Photographer.</p>
+
+                        <a href="" class="app_store_btn text-uppercase">
+                            <i class="fab fa-apple"></i>
+                            <span>Iphone App</span>
+                        </a>
+
+                        <a href="" class="app_store_btn text-uppercase">
+                            <i class="fab fa-android"></i>
+                            <span>Android App</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="featured">
+                <div class="container">
+                    <ul class="list-unstyled text-center clearfix row">
+                        <li class="col-6 col-lg-3">
+                            <img src="img/google_logo.png" alt="" title="">
+                        </li>
+                        <li class="col-6 col-lg-3">
+                            <img src="img/facebook_logo.png" alt="" title="">
+                        </li>
+                        <li class="col-6 col-lg-3">
+                            <img src="img/yahoo_logo.png" alt="" title="">
+                        </li>
+                        <li class="col-6 col-lg-3">
+                            <img src="img/paypal_logo.png" alt="" title="">
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-center">
+                            <div class="iphone">
+                                <img src="img/iphone.png" alt="" title="">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="features_list">
+                                <h1 class="text-uppercase">Capture unforgettable moments.</h1>
+                                <p>Seuismod ligula ipsum vulputate tellus quisque dictum tortor at purus faucibus tincidunt, pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                                <ul class="list-unstyled">
+                                    <li class="camera_icon">
+                                        <i class="fas fa-camera"></i>
+                                        <span>Euismod ligula ipsum vulputate tellus.</span>
+                                    </li>
+                                    <li class="video_icon">
+                                        <i class="fas fa-video"></i>
+                                        <span>Morbi non efficitur nibh sit amet est eros.</span>
+                                    </li>
+                                    <li class="eye_icon">
+                                        <i class="far fa-eye"></i>
+                                        <span>Fusce faucibus ante liberonec luctus egestas.</span>
+                                    </li>
+                                    <li class="pic_icon">
+                                        <i class="far fa-image"></i>
+                                        <span>Quisque pretium malesuada ornare.</span>
+                                    </li>
+                                    <li class="loc_icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Cras interdum vestibulum dolor.</span>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="app_store_btn text-uppercase" id="play_video" data-toggle="modal" data-target="#myModal" data-scr="https://youtu.be/qM4joaqNxf0">
+                                    <i class="fas fa-play"></i>
+                                    <span>About Video</span>
+                                </a>
+                                <a href="#hero" class="app_link">Get the app</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="app-featured" id="app-featured">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-4 details">
+                            <i class="fas fa-user-friends"></i>
+                            <h1 class="text-uppercase">malesuada fames turpis.</h1>
+                            <p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+                        </div>
+                        <div class="col-md-4 details">
+                            <i class="far fa-image"></i>
+                            <h1 class="text-uppercase">malesuada fames turpis.</h1>
+                            <p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+                        </div>
+                        <div class="col-md-4 details">
+                            <i class="far fa-hdd"></i>
+                            <h1 class="text-uppercase">malesuada fames turpis.</h1>
+                            <p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4 details">
+                            <i class="far fa-comments"></i>
+                            <h1 class="text-uppercase">malesuada fames turpis.</h1>
+                            <p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+                        </div>
+                        <div class="col-md-4 details">
+                            <i class="fas fa-cog"></i>
+                            <h1 class="text-uppercase">malesuada fames turpis.</h1>
+                            <p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+                        </div>
+                        <div class="col-md-4 details">
+                            <i class="fas fa-print"></i>
+                            <h1 class="text-uppercase">malesuada fames turpis.</h1>
+                            <p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="testimonials" id="testimonials">
+                <div class="container">
+                    <div class="testimonials_list">
+
+                        <ul class="list-unstyled text-center slides clearfix" id="testimonial-slider">
+                            <li>
+                                <blockquote>
+                                    <p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.</p>
+                                    <span class="author text-uppercase">John Doe</span>
+                                    <span class="job">IOS developer</span>
+
+                                </blockquote>
+                            </li>
+                            <li>
+                                <blockquote>
+                                    <p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.</p>
+                                    <span class="author text-uppercase">Alex Fredy</span>
+                                    <span class="job">android developer</span>
+                                </blockquote>
+                            </li>
+
+                            <li>
+                                <blockquote>
+                                    <p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.</p>
+                                    <span class="author text-uppercase">Sara Aliba</span>
+                                    <span class="job">app Designer</span>
+                                </blockquote>
+                            </li>
+
+                        </ul>
+
+                        <div class="row h-100 justify-content-center align-items-center slider-controls" id="slider_nav">
+                            <a class="testimonial-arrow tprev"><i class="far fa-arrow-alt-circle-left"></i></a>
+                            <a class="testimonial-arrow tnext"><i class="far fa-arrow-alt-circle-right"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="subscription" id="subscription">
+                <p class="cta_text animated">Join Our Liste and stay updated!</p>
+                <form id="submit_form">
+                    <div class="form-inline">
+                        <input type="email" id="mc-email" placeholder="Enter your email"/>
+                        <button type="submit" id="mc_submit"><i class="far fa-envelope"></i></button>
+                    </div>
+                </form>
+                <div class="message" id="error_msg">Please Enter A Valid Email.</div>
+                <div class="message" id="success_msg">Thank You For Your Subscription.</div>
+
+            </section>
+
+        </main>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+
+                    <div class="modal-body">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"></iframe>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <ul class="list-group list-group-horizontal list-unstyled app_platform">
+                <li><a href=""><i class="fab fa-android"></i></a></li>
+                <li><a href=""><i class="fab fa-apple"></i></a></li>
+                <li><a href=""><i class="fab fa-windows"></i></a></li>
+            </ul>
+
+            <p class="copyright">© 2015 All Rights Reserved</p>
+
+        </footer>
+
+        <button class="btn btn-secondary" id="toTop" title="Go to top"><i class="fas fa-angle-double-up"></i>Up<i class="fas fa-angle-double-up"></i></button>
+
+        <!-- SLICK slider  -->
+        <script>
+            $(document).ready(function($) {
+                $('#testimonial-slider').slick({
+                    dots: false,
+                    infinite: true,
+                    fade: true,
+                    speed: 500,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    prevArrow: $('.tprev'),
+                    nextArrow: $('.tnext'),
+                });
+            });
+        </script>
+
+        <script>
+            $(document).ready(function($) {
+
+                $( window ).scroll(function() {
+                    let $this = $(this);
+                    if ($this.scrollTop() > 500){
+                        $('#toTop').addClass('active');
+                    }else{
+                        $('#toTop').removeClass('active');
+                    }
+                });
+
+            });
+        </script>
+
+        <script>
+            $("#toTop").click(toTop);
+
+            function toTop() {
+                // alert('clicked');
+                $('html, body').animate({scrollTop: '0'}, 1000);
+            }
+        </script>
+
+        <script>
+            $(document).ready(function() {
+
+                var $videoSrc;
+                $('#play_video').click(function() {
+                    $videoSrc = $(this).data( "src" );
+                });
+                //console.log($videoSrc);
+
+                $('#myModal').on('shown.bs.modal', function (e) {
+                    $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+                })
+
+                $('#myModal').on('hide.bs.modal', function (e) {
+                    $("#video").attr('src',$videoSrc);
+                })
+
+            });
+        </script>
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    </body>
+
+</html>
